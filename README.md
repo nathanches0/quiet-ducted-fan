@@ -5,6 +5,7 @@
 ![Cutaway render of the 150 mm model](renders/fan_cutaway_render.png)
 
 *Exploded view: contra-rotating rotors, then the parts separate.*
+
 https://github.com/user-attachments/assets/b687fe89-71f3-4fa7-bc0d-1da044c63838
 
 
@@ -39,7 +40,7 @@ These are first-principles estimates and will be replaced by bench-rig measureme
 scripts/ducted_fan_layout.py   sizing, 1:10 geometry, acoustic mode check, SolidWorks globals export
 scripts/anc_fan_sim.py         ANC simulation: tones, FxLMS cancellation, speaker-ring sizing, audio output
 cad/sw_globals_1to10.txt       SolidWorks global variables (Tools > Equations > Link to external file)
-renders/                       cutaway renders and exploded-view animation
+renders/                       cutaway renders and exploded-view animation (fan_explode.mp4)
 results/                       bench-rig data (coming)
 ```
 
