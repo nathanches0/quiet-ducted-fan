@@ -2,6 +2,8 @@
 
 **Making compact ducted fans quiet enough for cities — without losing efficiency.**
 
+📓 **Full project log, design decisions and calculations:** [Notion project hub](https://garnet-geography-dba.notion.site/Quiet-Compact-Lift-Project-Hub-414f387e15398157b541ef840e56a38d)
+
 ![Cutaway render of the 150 mm model](renders/fan_cutaway_render.png)
 
 *Exploded view: contra-rotating rotors, then the parts separate.*
@@ -64,3 +66,5 @@ python scripts/anc_fan_sim.py --b1 11 --b2 9 --stators 23
 - [ ] Static printed cutaway model
 - [ ] 150 mm two-rotor bench rig: thrust, power and noise measurements
 - [ ] Physical ANC test
+
+Follow progress in the [Notion project hub](https://garnet-geography-dba.notion.site/Quiet-Compact-Lift-Project-Hub-414f387e15398157b541ef840e56a38d).
