@@ -36,7 +36,7 @@ A contra-rotating ducted fan designed for low noise from the start:
 
 These are first-principles estimates and will be replaced by bench-rig measurements.
 
-**Try it:** the [Duct Fan Noise Lab](https://claude.ai/artifact/XhhPr1kdexmTG1Qjfex5Lb) lets you change blade and stator counts, rpm, duct size and rotor spacing and see (and hear) which tones escape.
+**Try it:** the [Quiet Fan Console](https://claude.ai/artifact/XcCDvP2ELBb7qd5he5Hazy) lets you spin the fan up, change blade and stator counts, hear the result, and watch whines (bright lines) vs hiss on a live spectrogram, with A/B comparison of designs. It also includes the bench-rig wiring. The earlier [Duct Fan Noise Lab](https://claude.ai/artifact/XhhPr1kdexmTG1Qjfex5Lb) is still available.
 
 ## Repository
 
