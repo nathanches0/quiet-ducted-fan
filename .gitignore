@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.wav
+fan_*_summary.json
+*.blend1
