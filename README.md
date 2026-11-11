@@ -4,6 +4,10 @@
 
 ![Cutaway render of the 150 mm model](renders/fan_cutaway_render.png)
 
+*Exploded view: contra-rotating rotors, then the parts separate.*
+https://github.com/user-attachments/assets/b687fe89-71f3-4fa7-bc0d-1da044c63838
+
+
 ## The problem
 
 Personal flying vehicles and drones are loud. Open-rotor designs are criticised for a tonal, lawnmower-like sound, and jet-powered flyers are louder still. Large, slow rotors are quiet but bulky; small, compact fans are normally loud. Noise is one of the main barriers to flying machines in cities.
