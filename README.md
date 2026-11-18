@@ -43,6 +43,9 @@ These are first-principles estimates and will be replaced by bench-rig measureme
 ```
 scripts/ducted_fan_layout.py   sizing, 1:10 geometry, acoustic mode check, SolidWorks globals export
 scripts/anc_fan_sim.py         ANC simulation: tones, FxLMS cancellation, speaker-ring sizing, audio output
+scripts/rig_log.py             bench-rig logger: heartbeat, equal-thrust sweeps, CSV + summary (try --sim)
+firmware/rig_logger/           Arduino Nano firmware for the bench rig (see firmware/README.md)
+firmware/test_rig.cpp          runs the firmware against a simulated rig on a normal computer
 cad/sw_globals_1to10.txt       SolidWorks global variables (Tools > Equations > Link to external file)
 renders/                       cutaway renders and exploded-view animation (fan_explode.mp4)
 results/                       bench-rig data (coming)
@@ -56,6 +59,7 @@ python scripts/ducted_fan_layout.py
 python scripts/anc_fan_sim.py                     # full-scale duct
 python scripts/anc_fan_sim.py --preset rig        # 150 mm bench rig
 python scripts/anc_fan_sim.py --b1 11 --b2 9 --stators 23
+python scripts/rig_log.py --sim --label test --sweep 4,8   # try the rig logger with no hardware
 ```
 
 ## Roadmap
@@ -65,6 +69,7 @@ python scripts/anc_fan_sim.py --b1 11 --b2 9 --stators 23
 - [x] ANC simulation with before/after audio
 - [x] Cutaway CAD/render and exploded-view animation
 - [ ] SolidWorks CFD: lip suction in hover, duct drag in crossflow
+- [x] Bench-rig firmware and logger (tested against a simulated rig)
 - [ ] Static printed cutaway model
 - [ ] 150 mm two-rotor bench rig: thrust, power and noise measurements
 - [ ] Physical ANC test
